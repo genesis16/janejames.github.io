@@ -23,7 +23,7 @@ const StyledMouse = styled.div`
   width: 20px;
   height: 30px;
   padding: 0 6px;
-  border: 2px solid #fff;
+  border: 2px solid #0066cc;
   border-radius: 20px;
 `;
 const StyledScroller = styled.div`

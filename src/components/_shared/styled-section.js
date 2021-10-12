@@ -10,6 +10,7 @@ export const StyledSection = styled.section`
   padding: 30px 0;
   max-width: 1000px;
   margin-bottom: 60px;
+  font-size: 0.8em;
 `;
 
 export const StyledFullHeightSection = styled(StyledSection)`

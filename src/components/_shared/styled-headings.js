@@ -5,13 +5,15 @@ export const StyledH1 = styled.h1`
   position: relative;
   font-weight: 800;
   margin: 20px 0;
+  color: var(--primary-color);
 
   &:first-letter {
-    color: var(--primary-color);
+    color: var(--secondary-color);
   }
 
   &:after {
-    background-color: var(--primary-color);
+    color: var(--white);
+    background-color: var(--white);
     content: '';
     position: absolute;
     top: -30px;

@@ -19,6 +19,7 @@ const StyledIntroduction = styled.div`
   font-weight: normal;
 `;
 const StyledAuthor = styled.h1`
+
   margin-left: -4px !important;
   font-size: 40px;
   line-height: 1.1;
@@ -38,7 +39,7 @@ const StyledTagline = styled.h2`
   word-break: break-word;
 
   ${mq.gt.xs} {
-    font-size: 80px;
+    font-size: 50px;
   }
 `;
 const StyledDescription = styled.div`

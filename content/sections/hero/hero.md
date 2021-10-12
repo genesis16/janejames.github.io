@@ -1,10 +1,8 @@
 ---
-introduction: "hey it's me"
-tagline: 'Design. Code. Experiment'
-cta_label: 'View Documentation'
-cta_link: 'https://github.com/Knochenmark/gatsby-starter-level-2/blob/master/README.md'
+introduction: "Freelance web developer"
+tagline: 'Wordpress. Gatsby. Hugo'
+cta_label: 'Get in touch'
+cta_link: 'mailto: hello@jane-james.com.au'
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+I help businesses build and maintain websites that are optimized for speed and SEO, that fit within your budget.

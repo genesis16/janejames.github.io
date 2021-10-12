@@ -32,18 +32,25 @@ const StyledProjectInfoContainer = styled.section`
   display: flex;
   flex-direction: column;
   position: relative;
+
+  &:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
+  }
 `;
 const StyledDescription = styled.section`
   ${contentBox}
   max-height: 180px;
   position: relative;
-  padding: 10px;
+  padding: 20px;
 
   > p {
     height: 100%;
     margin: 0;
     font-size: 0.8rem;
     overflow: hidden;
+    color: var(--white);
+
   }
 `;
 const StyledLinkContainer = styled.section`

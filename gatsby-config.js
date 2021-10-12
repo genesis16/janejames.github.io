@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: 'Level 2',
-    titleTemplate: '%s · Level 2',
+    titleTemplate: 'Jane James web developer',
     image: '/images/logo.png',
-    author: 'Max Mustermann',
-    description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
-    url: 'https://knochenmark.github.io',
+    author: 'Jane James',
+    description: 'Jane James is a Melbourne based web developer who also has clients in Sydney, Brisbane and Newcastle ',
+    url: 'https://jane-james.com.au',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
   plugins: [

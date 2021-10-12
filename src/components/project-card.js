@@ -25,7 +25,7 @@ const StyledLinkContainer = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--body-color);
+    color: var(--white);
 
     &:hover {
       color: var(--primary-color);
@@ -41,6 +41,7 @@ const StyledInfoContainer = styled.section`
   display: flex;
   flex-direction: column;
   position: relative;
+  padding: 10px;
 `;
 const StyledProjectText = styled(StyledTextSection)`
   > p {

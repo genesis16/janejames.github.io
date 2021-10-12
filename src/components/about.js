@@ -12,6 +12,7 @@ const StyledAboutContainer = styled.article`
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 2.5rem;
   padding: 2.5rem 0;
+  font-size: 1em;
 
   ${mq.gt.sm} {
     grid-template-columns: repeat(2, 1fr);

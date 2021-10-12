@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Logo from '../assets/logo.svg';
+import Logo from '../assets/jjlogo.svg';
 import SocialIcons from './social-icons';
 import { socialIconList } from './_config/social-icon-list';
 import { mq } from './_shared/media';
@@ -11,7 +11,7 @@ import { StyledIndexNumber } from './_shared/styled-index-number';
 const StyledHeader = styled.header`
   height: var(--header-height);
   flex-shrink: 0;
-  background-color: var(--bg-content-color);
+  background-color: var(--white);
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-left);
 `;
@@ -32,7 +32,7 @@ const StyledLogo = styled(Logo)`
   fill: var(--title-color);
 
   &:hover path.level-2 {
-    fill: var(--primary-color);
+    fill: var(--white);
   }
 `;
 const StyledNav = styled.nav`

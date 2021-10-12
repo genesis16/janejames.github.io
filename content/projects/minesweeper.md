@@ -1,10 +1,12 @@
 ---
 featured: true
 date: '2019-12-22'
-title: 'Minesweeper'
-cover_image: './images/motherboard.jpg'
-repo_link: 'https://github.com/Knochenmark/minesweeper'
-techs: ['Typescript', 'React']
+title: 'Public Sector Network'
+cover_image: './images/psn.png'
+repo_link: 'https://publicsectornetwork.co'
+techs: ['Wordpress','Jquery', 'PHP']
 ---
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+I spend half of my week working as the development lead for Public Sector Network. Maintenance of the PSN site requires managing the AWS Server, updating the WordPress plugins and software, managing the SQL database, optimising page tags for SEO, CSS/JS changes and debugging.
+
+

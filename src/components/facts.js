@@ -10,16 +10,17 @@ const StyledLogoSection = styled.section`
   flex-wrap: wrap;
 `;
 
-const StyledFactNumber = styled.section`
+const StyledFactContent = styled.section`
   display: flex;
   flex-direction: column;
   padding: 1rem;
 
-  & > .number {
+  & > .content{
     margin-left: 2rem;
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-weight: bold;
+    color: var(--white);
   }
 
   & > .fact {
@@ -45,20 +46,32 @@ const StyledFactNumber = styled.section`
 const Facts = () => {
   return (
     <StyledSkewedSection angle={10}>
-      <StyledH1>Some Interesting Facts</StyledH1>
+      <StyledH1>Why you should hire a professional web developer</StyledH1>
       <StyledLogoSection>
-        <StyledFactNumber>
-          <span className="number">127</span>
-          <span className="fact">Finished Projects</span>
-        </StyledFactNumber>
-        <StyledFactNumber>
-          <span className="number">321</span>
-          <span className="fact">Happy Customers</span>
-        </StyledFactNumber>
-        <StyledFactNumber>
-          <span className="number">863</span>
-          <span className="fact">Freelancing Hours</span>
-        </StyledFactNumber>
+        <StyledFactContent>
+          <span className="content">
+<span>&#8226;</span>&nbsp;&nbsp;Many businesses today decide to build or maintain their own website when they are starting out to try and save money. </span>
+        </StyledFactContent>
+        <StyledFactContent>
+          <span className="content">
+          <span>&#8226;</span>&nbsp;&nbsp;And this may work for a while, until your business outgrows it, or you run into technical problems you don't know how to resolve.</span>
+        </StyledFactContent>
+        <StyledFactContent>
+          <span className="content">
+          <span>&#8226;</span>&nbsp;&nbsp;But the truth is, the money you 'save' in the short term, costs you tens of thousands later on in adwords and SEO services. And the reason for that is your schema is not built for SEO, your speed is horrible because you used a page builder, and therefore your search-ability is low.</span>
+        </StyledFactContent>
+        <StyledFactContent>
+          <span className="content">
+          <span>&#8226;</span>&nbsp;&nbsp;All professional businesses have in house developer or outsource their web maintenance to an agency. As your website grows and requires more complex functionality, the technical requirements expand beyond what you can manage yourself.</span>
+        </StyledFactContent>
+        <StyledFactContent>
+          <span className="content">
+          <span>&#8226;</span>&nbsp;&nbsp;Deep down you know this. I mean web development wouldn't be an in demand profession, if everyone could achieve what they wanted using a no code page builder.</span>
+        </StyledFactContent>
+        <StyledFactContent>
+          <span className="content">
+          <span>&#8226;</span>&nbsp;&nbsp;40% of consumers will abandon a page that takes longer than 3 seconds to load. Is this business you can afford to lose?</span>
+        </StyledFactContent>
       </StyledLogoSection>
     </StyledSkewedSection>
   );
