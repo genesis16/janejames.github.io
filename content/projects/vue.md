@@ -1,10 +1,10 @@
 ---
 featured: false
 date: '2010-03-19'
-title: 'Vue'
-repo_link: 'https://github.com/vuejs/vue'
-demo_link: 'https://vuejs.org/'
-techs: ['Vue', 'Javascript', 'Vuetify']
+title: 'Bridge Kids'
+repo_link: 'https://bridgekids.com.au'
+demo_link: 'https://bridgekids.com.au'
+techs: ['Underscores', 'CSS', 'HTML']
 ---
 
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+Bridge Kids has a sit built in underscores, and they needed some CSS/HTMl changes to update their site, adding im an image container and also changing the staff information and general content. After gaining FTP access, I did all of this for them and also updated their PHP version, software and plugins. 

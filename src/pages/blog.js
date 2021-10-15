@@ -14,12 +14,10 @@ const StyledPaginationContainer = styled.div`
   ${flexCenter};
   width: 100%;
   margin-top: 2.5rem;
-
   & ul.ant-pagination {
     cursor: pointer;
     display: flex;
     list-style: none;
-
     & > li {
       ${flexCenter};
       min-width: 1rem;

@@ -12,6 +12,7 @@ const StyledProject = styled.article`
   display: flex;
   flex-direction: column;
   padding-top: 2.5rem;
+  color: var(--white);
 `;
 const StyledHeader = styled.header`
   display: flex;

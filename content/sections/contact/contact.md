@@ -1,9 +1,7 @@
 ---
-phone: '+49 1234 5678910'
-email: 'maxmustermann@gmail.com'
-address: 'Friesenstr. 123, Berlin, Germany'
+phone: '+61402094234'
+email: 'hello@jane-james.com.au'
+address: 'Working remote from Eltham, Australia'
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy [Link to issues](https://github.com/Knochenmark/gatsby-starter-level-2/issues) tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+Do you have a web project in mind you'd like to talk about? I'd love to chat with you. Please drop me an email and we can catch up over zoom and discuss your requirements. 
