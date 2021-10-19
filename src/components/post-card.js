@@ -14,7 +14,7 @@ const StyledPostTags = styled.div`
   z-index: 2;
 `;
 const StyledReadMoreLink = styled(Link)`
-  color: var(--primary-color);
+  color: var(--white);
   background: transparent;
   display: flex;
   align-items: flex-end;
@@ -28,7 +28,7 @@ const StyledReadMoreLink = styled(Link)`
   z-index: 0;
 
   &:hover {
-    color: var(--primary-color) !important;
+    color: var(--white) !important;
 
     & > span {
       text-decoration: underline;
@@ -40,32 +40,34 @@ const StyledCoverImageContainer = styled.div`
 `;
 const StyledPublishingDate = styled.div`
   margin-bottom: 1rem;
-  color: var(--title-color);
+  color: var(--white);
   font-size: 0.8rem;
   font-weight: 500;
 `;
 const StyledContent = styled.div`
   padding: 0 var(--space);
+  color: var(--white);
 `;
 const StyledTitle = styled.h2`
   color: var(--primary-color);
   margin: 1rem 0;
 `;
 const StyledDescription = styled.p`
-  color: var(--title-color);
+  color: var(--white);
 `;
 const StyledPostCard = styled.article`
   ${contentBox}
   display: flex;
   flex-direction: column;
   position: relative;
-  color: var(--title-color);
+  color: var(--white);
   margin-bottom: var(--space);
   padding: 0;
   padding-bottom: calc(3rem * 2);
 
   > a {
     text-decoration: none;
+    color: var(--white);
   }
 `;
 

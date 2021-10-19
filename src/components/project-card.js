@@ -7,6 +7,8 @@ import { StyledContentLink } from './_shared/styled-content-link';
 import { StyledH2 } from './_shared/styled-headings';
 import { flexEnd } from './_shared/styled-mixins';
 import { StyledTextSection } from './_shared/styled-text-section';
+import { GatsbyImage } from 'gatsby-plugin-image';
+import { StyledImageContainer } from './_shared/styled-image-container';
 
 const StyledProject = styled.article`
   display: flex;
@@ -53,12 +55,28 @@ const StyledProjectText = styled(StyledTextSection)`
   }
 `;
 
-const ProjectCard = ({ title, demoLink, repoLink, techs, html }) => {
+const ProjectCard = ({ title, demoLink, repoLink, techs,image, html }) => {
   const demoLinkLabel = `featured project ${title} demo`;
   const repoLinkLabel = `featured project ${title} repo`;
+  const coverImage = image
+  ? image.childImageSharp.gatsbyImageData
+  : null;
+console.log("image:",coverImage);
   return (
     <StyledProject>
         <StyledHeader>
+        <a
+          aria-label={demoLink ? demoLinkLabel : repoLink ? repoLinkLabel : `featured project ${title}`}
+          href={demoLink ? demoLink : repoLink ? repoLink : '#'}
+          target="_blank"
+          rel="noopener"
+        >
+          {coverImage && (
+            <StyledImageContainer hasHover>
+              <GatsbyImage image={coverImage} alt={title} />
+            </StyledImageContainer>
+          )}
+        </a>
           <StyledContentLink href={demoLink ? demoLink : repoLink ? repoLink : '#'} target="_blank" rel="noopener">
             <StyledH2>{title}</StyledH2>
           </StyledContentLink>

@@ -68,6 +68,7 @@ const Projects = ({ data }) => {
               repoLink={node.frontmatter.repo_link}
               techs={node.frontmatter.techs}
               html= {node.html}
+              image={node.frontmatter.cover_image}
             />
           );
         })}
@@ -97,6 +98,11 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "D MMMM, YYYY")
             title
+            cover_image {
+              childImageSharp {
+                gatsbyImageData(layout: FULL_WIDTH)
+              }
+            }
             repo_link
             demo_link
             techs

@@ -1,7 +1,7 @@
 ---
 title: 'Hi, I’m Jane a Melbourne based Wordpress web developer, and I help businesses like yours build, modify and launch websites without stress.'
 about_image: './janejames.jpg'
-techs: ['Gatsby', 'JQuery', 'React', 'GraphQL', 'PHP']
+techs: ['Wordpress', 'JQuery', 'React', 'GraphQL', 'PHP']
 ---
 
 I specialise in custom built sites on the Genesis Framework, and have recently expanded my offering to include static sites with a content management system. I love complex challenges, and especially love rebuilding sites that are slow and not performing to sites that are fast, efficient and lead generating.

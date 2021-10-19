@@ -62,7 +62,7 @@ const Facts = () => {
         </StyledFactContent>
         <StyledFactContent>
           <span className="content">
-          <span>&#8226;</span>&nbsp;&nbsp;All professional businesses have in house developer or outsource their web maintenance to an agency. As your website grows and requires more complex functionality, the technical requirements expand beyond what you can manage yourself.</span>
+          <span>&#8226;</span>&nbsp;&nbsp;All professional businesses have an in house developer or outsource their web maintenance to an agency. As your website grows, the technical requirements expand beyond what you can manage yourself.</span>
         </StyledFactContent>
         <StyledFactContent>
           <span className="content">

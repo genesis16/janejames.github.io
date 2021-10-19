@@ -13,6 +13,7 @@ import { StyledFullHeightSection } from '../components/_shared/styled-section';
 const StyledPaginationContainer = styled.div`
   ${flexCenter};
   width: 100%;
+  background: var(--white);
   margin-top: 2.5rem;
   & ul.ant-pagination {
     cursor: pointer;
