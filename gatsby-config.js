@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Level 2',
     titleTemplate: 'Jane James web developer',
-    image: '/images/logo.png',
+    image: '/images/janejames.jpg',
     author: 'Jane James',
     description: 'Jane James is a Melbourne based web developer who also has clients in Sydney, Brisbane and Newcastle ',
     url: 'https://jane-james.com.au',
@@ -86,7 +86,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/janejames.jpg`, // This path is relative to the root of the site.
       },
     },
     {
