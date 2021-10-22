@@ -25,4 +25,4 @@ Let’s walk through this. First, we declare a function to disable admin bars. N
 
 Of course, if you anted to select contributor or another role, you can just add in the same title and they will also be exempt from the hidden admin bar.
 
-Jane James is a WordPress web developer based in Melbourne, Australia but also services clients from Sydney, Brisbane, Newcastle, Perth, Adelaide, Darwin and Hobart.
+*Jane James is a WordPress web developer based in Melbourne, Australia but also services clients from Sydney, Brisbane, Newcastle, Perth, Adelaide, Darwin and Hobart.*

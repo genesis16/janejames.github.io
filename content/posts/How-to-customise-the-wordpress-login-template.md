@@ -36,4 +36,4 @@ That is it, and now you can view your custom login page:
 
 Adding client logos to their login pages gives a nice custom login page that is personalised and on brand. You can add any styles or colours you want, just add the CSS into the login-logo.php file.
 
-Jane James is a WordPress web developer based in Melbourne, Australia but also services clients from Sydney, Brisbane, Newcastle, Perth, Adelaide, Darwin and Hobart.
+*Jane James is a WordPress web developer based in Melbourne, Australia but also services clients from Sydney, Brisbane, Newcastle, Perth, Adelaide, Darwin and Hobart.*
