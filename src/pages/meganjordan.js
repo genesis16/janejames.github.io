@@ -1,11 +1,16 @@
 import React from 'react';
-import Header from '../components/header';
+import { Link } from 'gatsby';
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-function MeganJordan() {
+
+const MeganJordan = () => {
     return (
-<main>
-    <h1>Megan Jordan</h1>
-</main>
- )
-}
-export default MeganJordan 
+      <main>
+        <title>Megan Jordan</title>
+        <h1>Megan Jordan Celebrant</h1>
+        <Link to="/#about">About</Link>
+        <p>I'm making this by following the Gatsby Tutorial.</p>
+      </main>
+    )
+  }
+  export default MeganJordan

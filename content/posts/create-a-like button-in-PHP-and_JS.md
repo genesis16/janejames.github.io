@@ -33,4 +33,4 @@ Now we are going to go into our template file, in my case it’s header-insights
 Now we’re going to go to our post template file, refresh the page and see if our like button is working. If you click and un-click the button, the heart will turn on and off which is correct. The way the function is setup, it only allows one user to like a post by calling your IP address into the wp_postmeta table in SQL, so for example you cannot publish a post and click like a hundred times to look really cool, LOL. You can see the finished product below:
 
 
-*Alpha Omega Digital is a WordPress agency based in Melbourne, Australia but also services clients from Sydney, Brisbane, Newcastle, Perth, Adelaide, Darwin and Hobart. Have a project in mind? Contact me [Here](mailto:alphaomegadigitalau@gmail.com)*
+*Alpha Omega Digital is a WordPress agency based in Melbourne, Australia but also services clients from Sydney, Brisbane, Newcastle, Perth, Adelaide, Darwin and Hobart. Have a project in mind? Contact me [Here](mailto:hello@jane-james.com.au)*

@@ -1,6 +1,6 @@
 ---
 phone: '+61402094234'
-email: 'alphaomegadigitalau@gmail.com'
+email: 'hello@jane-james.com.au'
 address: 'Working remote from Eltham, Australia'
 ---
 
