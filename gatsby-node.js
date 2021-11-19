@@ -69,3 +69,43 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 };
+
+
+
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions;
+  const result = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "/content/projects/" }, frontmatter: { featured: { eq: true } } }
+          limit: 2000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+            }
+          }
+        }
+
+       
+      }
+    `
+  );
+
+  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    createPage({
+      path: `project${node.fields.slug}`,
+      component: path.resolve(`./src/templates/featured-project.js`),
+      context: {
+        // Data passed to context is available in page queries as GraphQL vars.
+        // (when we query data it will set $slug var auto)
+        slug: node.fields.slug,
+      },
+    });
+  });
+
+
+};
