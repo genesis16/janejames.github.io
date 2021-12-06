@@ -58,7 +58,7 @@ const Facts = () => {
         </StyledFactContent>
         <StyledFactContent>
           <span className="content">
-          <span>&#8226;</span>&nbsp;&nbsp;But the truth is, the money you 'save' in the short term, costs you tens of thousands later on in adwords and SEO services. And the reason for that is your schema is not built for SEO.</span>
+          <span>&#8226;</span>&nbsp;&nbsp;But the truth is, the money you 'save' in the short term, costs you tens of thousands later on in adwords and SEO services. And the reason for that is your schema is not built for SEO, your speed is horrible because you used a page builder, and therefore your search-ability is low.</span>
         </StyledFactContent>
         <StyledFactContent>
           <span className="content">
@@ -66,7 +66,7 @@ const Facts = () => {
         </StyledFactContent>
         <StyledFactContent>
           <span className="content">
-          <span>&#8226;</span>&nbsp;&nbsp;Web development wouldn't be an in demand profession, if everyone could achieve what they wanted using a no code page builder.</span>
+          <span>&#8226;</span>&nbsp;&nbsp;Deep down you know this. I mean web development wouldn't be an in demand profession, if everyone could achieve what they wanted using a no code page builder.</span>
         </StyledFactContent>
         <StyledFactContent>
           <span className="content">

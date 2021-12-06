@@ -11,7 +11,7 @@ import { StyledH1, StyledH2 } from './_shared/styled-headings';
 import { StyledImageContainer } from './_shared/styled-image-container';
 import { contentBox, flexCenter, flexEnd } from './_shared/styled-mixins';
 import { StyledSection } from './_shared/styled-section';
-
+import { Link } from 'gatsby';
 const StyledFeaturedProject = styled.article`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -80,36 +80,33 @@ const StyledArchiveContainer = styled.div`
 
 const FeaturedProjects = ({ featured }) => {
   const featuredProjects = featured.map((project, index) => {
-    const coverImage = project.frontmatter.cover_image
-      ? project.frontmatter.cover_image.childImageSharp.gatsbyImageData
+    const { titlee, demo_link, repo_link } = project.node.frontmatter;
+    const coverImage = project.node.frontmatter.cover_image
+      ? project.node.frontmatter.cover_image.childImageSharp.gatsbyImageData
       : null;
-
-    const title = project.frontmatter.title;
-    const demoLink = project.frontmatter.demo_link;
-    const repoLink = project.frontmatter.repo_link;
+  
+    const title = titlee;
+    const demoLink = demo_link;
+    const repoLink = repo_link;
     const demoLinkLabel = `featured project ${title} demo`;
     const repoLinkLabel = `featured project ${title} repo`;
-
+    const link = `/project` + project.node.fields.slug;
+    console.log('link +++', link)
     return (
       <StyledFeaturedProject key={title + index}>
-        <a
-          aria-label={demoLink ? demoLinkLabel : repoLink ? repoLinkLabel : `featured project ${title}`}
-          href={demoLink ? demoLink : repoLink ? repoLink : '#'}
-          target="_blank"
-          rel="noopener"
-        >
+       <Link to={link} aria-label={`recent post ${title}`}>
           {coverImage && (
             <StyledImageContainer hasHover>
               <GatsbyImage image={coverImage} alt={title} />
             </StyledImageContainer>
           )}
-        </a>
+         </Link>
         <StyledProjectInfoContainer>
           <StyledContentLink href={demoLink ? demoLink : repoLink ? repoLink : '#'} target="_blank" rel="noopener">
             <StyledH2>{title}</StyledH2>
           </StyledContentLink>
-          <StyledDescription dangerouslySetInnerHTML={{ __html: project.html }} />
-          <TechList techs={project.frontmatter.techs} />
+          <StyledDescription dangerouslySetInnerHTML={{ __html: project.node.html }} />
+          <TechList techs={project.node.frontmatter.techs} />
           <StyledLinkContainer>
             {repoLink && (
               <a href={repoLink} target="_blank" rel="noopener" title="Repository Link" aria-label={repoLinkLabel}>

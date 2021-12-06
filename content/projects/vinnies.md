@@ -1,6 +1,6 @@
 ---
 featured: true
-date: '2019-12-26'
+date: '2021-7-26'
 title: 'Vinnies'
 cover_image: './images/vinnies.png'
 repo_link: 'https://youthvic.vinnies.org.au/'

@@ -1,12 +1,12 @@
 ---
-title: 'How to add additional footer widgets to any Genesis theme'
+title: How to add additional footer widgets to any Genesis theme
 date: 2021-09-24
 published: true
 tags: ['Genesis', 'Wordpress', 'Widgets']
 series: false
 cover_image: ./images/footerwidgets.webp
 canonical_url: false
-description: 'By default Genesis comes with 3 footer widget areas. To add a fourth you have to find the template where the number of widget areas are declared, and modify it.'
+description: "By default Genesis comes with 3 footer widget areas. To add a fourth you have to find the template where the number of widget areas are declared, and modify it."
 ---
 So I was working on some updates for a client Megan Jordan and she wanted a fourth footer widget area added to her site for an acknowledgement to country. I built her site using the Genesis sample SCSS theme by Cobalt apps which by default comes with 3 footer widget areas. To add a fourth you have to find the template where the number of widget areas are declared, and modify it.
 

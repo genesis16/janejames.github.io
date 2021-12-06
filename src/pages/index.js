@@ -28,8 +28,13 @@ const Index = ({ data }) => {
       <Hero data={heroData} />
       <Facts />
       <About data={data.about} />
-      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Service offering" id="features" />
-      <FeaturedProjects featured={data.featuredProjects.nodes} />
+      <CardGrid
+        cards={data.cards.frontmatter.cards}
+        description={data.cards.html}
+        title="Service offering"
+        id="features"
+      />
+      <FeaturedProjects featured={data.featuredProjects.edges} />
       <RecentPosts data={data.blog.edges} />
       <Contact data={data.contact} />
     </Layout>
@@ -90,20 +95,25 @@ export const query = graphql`
       sort: { order: DESC, fields: frontmatter___date }
       filter: { fileAbsolutePath: { regex: "/content/projects/" }, frontmatter: { featured: { eq: true } } }
     ) {
-      nodes {
-        frontmatter {
-          date(formatString: "D MMMM, YYYY")
-          title
-          repo_link
-          demo_link
-          techs
-          cover_image {
-            childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+      edges {
+        node {
+          frontmatter {
+            date(formatString: "D MMMM, YYYY")
+            title
+            repo_link
+            demo_link
+            techs
+            cover_image {
+              childImageSharp {
+                gatsbyImageData(layout: FULL_WIDTH)
+              }
             }
           }
+          html
+          fields {
+            slug
+          }
         }
-        html
       }
     }
 
