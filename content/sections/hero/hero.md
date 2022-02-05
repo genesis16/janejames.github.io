@@ -1,8 +1,8 @@
 ---
 introduction: "Melbourne web developer"
-tagline: 'Wordpress. Gatsby. Foundation'
+tagline: 'I build websites that load in under 3 seconds'
 cta_label: 'Get in touch'
 cta_link: 'mailto: hello@jane-james.com.au'
 ---
 
-I help businesses build and maintain websites that are optimized for speed and SEO, that fit within your budget.
+I help businesses build super fast websites, that rank higher in google.
