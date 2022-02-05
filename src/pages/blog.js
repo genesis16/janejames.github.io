@@ -48,7 +48,7 @@ const Blog = ({ data }) => {
 
   return (
     <Layout menuLinks={blogMenuLinks}>
-      <SEO title="Blog" />
+      <SEO title="Freelance Wordpress Web developer Melbourne" />
       <StyledFullHeightSection>
         {data.allMarkdownRemark.edges.slice(leftCursor, rightCursor).map(({ node }) => {
           const coverImage = node.frontmatter.cover_image

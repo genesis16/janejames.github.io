@@ -99,7 +99,7 @@ const FeatureProject = ({ data }) => {
           </StyledBlogSubtitle>
           <StyledBlogSubtitle>-</StyledBlogSubtitle>
           <StyledBlogSubtitle href={projectData.frontmatter.demo_link} target="_blank">
-            WordPress
+          {projectData.frontmatter.techs}
           </StyledBlogSubtitle>
         </StyledBlogSubtitleWrap>
         <StyledBlogWrap>
@@ -107,7 +107,7 @@ const FeatureProject = ({ data }) => {
           <StyledBlogInfo>
             <StyledBlogInfoInner>
               <StyledBlogInfoTitle>Client</StyledBlogInfoTitle>
-              <StyledBlogInfoDescription>Megan Jordan celebrant</StyledBlogInfoDescription>
+              <StyledBlogInfoDescription>{projectData.frontmatter.title}</StyledBlogInfoDescription>
             </StyledBlogInfoInner>
             <StyledBlogInfoInner>
               <StyledBlogInfoTitle>Project Date</StyledBlogInfoTitle>
@@ -115,7 +115,7 @@ const FeatureProject = ({ data }) => {
             </StyledBlogInfoInner>
             <StyledBlogInfoInner>
               <StyledBlogInfoTitle>Tags</StyledBlogInfoTitle>
-              <StyledBlogInfoDescription>Web project - WordPress</StyledBlogInfoDescription>
+              <StyledBlogInfoDescription>{projectData.frontmatter.techs}</StyledBlogInfoDescription>
             </StyledBlogInfoInner>
           </StyledBlogInfo>
         </StyledBlogWrap>
