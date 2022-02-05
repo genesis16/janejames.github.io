@@ -1,7 +1,7 @@
 ---
 introduction: "Melbourne web developer"
 tagline: 'I build blazing fast websites'
-cta_label: 'Get in touch'
+cta_label: 'Find out more'
 cta_link: 'mailto: hello@jane-james.com.au'
 ---
 
