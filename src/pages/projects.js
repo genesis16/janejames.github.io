@@ -96,7 +96,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            date(formatString: "D MMMM, YYYY")
+            date(formatDate: "DD MMMM, YYYY")
             title
             cover_image {
               childImageSharp {

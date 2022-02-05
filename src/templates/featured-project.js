@@ -139,7 +139,7 @@ export const query = graphql`
         repo_link
         demo_link
         techs
-        date(formatString: "D. MMMM YYYY")
+        date(formatDate: "DD MMMM YYYY")
         cover_image {
           publicURL
           childImageSharp {

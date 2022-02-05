@@ -91,14 +91,14 @@ export const query = graphql`
     }
 
     featuredProjects: allMarkdownRemark(
-      limit: 8
+      limit: 10
       sort: { order: DESC, fields: frontmatter___date }
       filter: { fileAbsolutePath: { regex: "/content/projects/" }, frontmatter: { featured: { eq: true } } }
     ) {
       edges {
         node {
           frontmatter {
-            date(formatString: "D MMMM, YYYY")
+            date(formatDate: "DD MMMM, YYYY")
             title
             repo_link
             demo_link
@@ -127,7 +127,7 @@ export const query = graphql`
           frontmatter {
             title
             tags
-            date(formatString: "D MMMM, YYYY")
+            date(formatDate: "DD MMMM, YYYY")
             description
             cover_image {
               childImageSharp {
