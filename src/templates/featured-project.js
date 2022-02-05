@@ -107,15 +107,15 @@ const FeatureProject = ({ data }) => {
           <StyledBlogInfo>
             <StyledBlogInfoInner>
               <StyledBlogInfoTitle>Client</StyledBlogInfoTitle>
-              <StyledBlogInfoDescription>Megan Jordan celebrant</StyledBlogInfoDescription>
+              <StyledBlogInfoDescription>{projectData.frontmatter.title}</StyledBlogInfoDescription>
             </StyledBlogInfoInner>
             <StyledBlogInfoInner>
               <StyledBlogInfoTitle>Project Date</StyledBlogInfoTitle>
               <StyledBlogInfoDescription>{projectData.frontmatter.date}</StyledBlogInfoDescription>
             </StyledBlogInfoInner>
             <StyledBlogInfoInner>
-              <StyledBlogInfoTitle>Tags</StyledBlogInfoTitle>
-              <StyledBlogInfoDescription>Web project - WordPress</StyledBlogInfoDescription>
+              <StyledBlogInfoTitle>Techs</StyledBlogInfoTitle>
+              <StyledBlogInfoDescription>{projectData.frontmatter.techs}</StyledBlogInfoDescription>
             </StyledBlogInfoInner>
           </StyledBlogInfo>
         </StyledBlogWrap>

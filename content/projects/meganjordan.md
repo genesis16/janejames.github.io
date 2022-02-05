@@ -5,7 +5,7 @@ title: 'Megan Jordan'
 cover_image: './images/meganjordan-imac.png'
 repo_link: 'https://meganjordan.com.au'
 demo_link: 'https://meganjordan.com.au'
-techs: ['Wordpress', 'WpBakery', 'PHP', 'AWS']
+techs: ['Wordpress']
 ---
 
 Megan originally designed her own website, using a non code page builder that left her short on many functions.
