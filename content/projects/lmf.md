@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 date: '2010-03-19'
 title: 'Luca Miraglia Foundation'
 cover_image: './images/lmf-imac.png.webp'
