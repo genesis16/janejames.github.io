@@ -96,7 +96,7 @@ export const query = graphql`
           frontmatter {
             title
             tags
-            date(formatDate: "DD MMMM, YYYY")
+            date(formatString: "DD MMMM, YYYY")
             description
             cover_image {
               childImageSharp {

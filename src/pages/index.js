@@ -98,7 +98,7 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
-            date(formatDate: "DD MMMM, YYYY")
+            date(formatString: "DD MMMM, YYYY")
             title
             repo_link
             demo_link
@@ -127,7 +127,7 @@ export const query = graphql`
           frontmatter {
             title
             tags
-            date(formatDate: "DD MMMM, YYYY")
+            date(formatString: "DD MMMM, YYYY")
             description
             cover_image {
               childImageSharp {

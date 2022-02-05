@@ -69,7 +69,7 @@ export const query = graphql`
       frontmatter {
         title
         tags
-        date(formatDate: "DD MMMM YYYY")
+        date(formatString: "DD MMMM YYYY")
         cover_image {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)
