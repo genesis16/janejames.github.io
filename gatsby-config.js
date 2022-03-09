@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Level 2',
-    titleTemplate: 'Jane James web developer',
+    titleTemplate: 'Freelance wordpress web developer Melbourne, Sydney, Gold Coast, Brisbane, Newcastle, Perth',
     image: '/images/janejames.jpg',
     author: 'Jane James',
     description: 'Jane James is a Melbourne based web developer who also has clients in Sydney, Brisbane and Newcastle ',

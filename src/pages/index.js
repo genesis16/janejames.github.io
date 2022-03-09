@@ -24,7 +24,7 @@ const Index = ({ data }) => {
 
   return (
     <Layout menuLinks={indexMenuLinks}>
-      <SEO title="Home" />
+      <SEO title="Freelance wordpress developer Melbourne" />
       <Hero data={heroData} />
       <Facts />
       <About data={data.about} />
