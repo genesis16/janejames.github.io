@@ -11,7 +11,6 @@ import { StyledSection } from '../components/_shared/styled-section';
 
 const StyledBlogSection = styled(StyledSection)`
   min-height: calc(100vh - var(--header-height));
-
   & > .gatsby-image-wrapper {
     width: 100%;
   }
@@ -21,7 +20,6 @@ const StyledBlogTitle = styled(StyledH1)`
 `;
 const StyledDate = styled.div`
   font-size: 0.8rem;
-
   & span {
     font-weight: 500;
   }
@@ -63,24 +61,24 @@ BlogPost.propTypes = {
 export default BlogPost;
 
 export const query = graphql`
-  query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        title
-        tags
-        date(formatString: "D. MMMM YYYY")
-        cover_image {
-          childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
-          }
-        }
-      }
-      fields {
-        readingTime {
-          text
+query MyQuery {
+  markdownRemark(html: {}) {
+    frontmatter {
+      title
+      tags
+      date(formatString: "")
+      cover_image {
+        childImageSharp {
+          gatsbyImageData(layout: FULL_WIDTH)
         }
       }
     }
+    fields {
+      readingTime {
+        text
+      }
+    }
   }
+}
+
 `;
