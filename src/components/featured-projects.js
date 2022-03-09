@@ -40,7 +40,7 @@ const StyledProjectInfoContainer = styled.section`
 `;
 const StyledDescription = styled.section`
   ${contentBox}
-  max-height: 180px;
+  max-height: 200px;
   position: relative;
   padding: 20px;
 

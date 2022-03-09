@@ -10,4 +10,6 @@ I provide a skills gap between business owners and your technical requirements, 
 
 I am willing to take on jobs others aren’t such as incomplete web projects, conversions from CSS frameworks such as bootstrap, or even just adding and optimising images and tags for SEO.
 
-Please contact me with your web requirements, I'd love to chat with you. 
+I also do package web devlopment projects with a pre built software that servies as an all in one marketing platform, from Email funnels, email marketing, sms marketing, social media marketing, CRM and task management. Because a successful web project is not just a website, it's a marketing machine that brings you business. 
+
+Please contact me with your business requirements, I am honest, friendly and don't bite.

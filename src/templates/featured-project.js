@@ -107,15 +107,15 @@ const FeatureProject = ({ data }) => {
           <StyledBlogInfo>
             <StyledBlogInfoInner>
               <StyledBlogInfoTitle>Client</StyledBlogInfoTitle>
-              <StyledBlogInfoDescription>{projectData.frontmatter.title}</StyledBlogInfoDescription>
+              <StyledBlogInfoDescription>Megan Jordan celebrant</StyledBlogInfoDescription>
             </StyledBlogInfoInner>
             <StyledBlogInfoInner>
               <StyledBlogInfoTitle>Project Date</StyledBlogInfoTitle>
               <StyledBlogInfoDescription>{projectData.frontmatter.date}</StyledBlogInfoDescription>
             </StyledBlogInfoInner>
             <StyledBlogInfoInner>
-              <StyledBlogInfoTitle>Techs</StyledBlogInfoTitle>
-              <StyledBlogInfoDescription>{projectData.frontmatter.techs}</StyledBlogInfoDescription>
+              <StyledBlogInfoTitle>Tags</StyledBlogInfoTitle>
+              <StyledBlogInfoDescription>Web project - WordPress</StyledBlogInfoDescription>
             </StyledBlogInfoInner>
           </StyledBlogInfo>
         </StyledBlogWrap>
@@ -139,7 +139,7 @@ export const query = graphql`
         repo_link
         demo_link
         techs
-        date(formatString: "DD MMMM YYYY")
+        date(formatString: "D. MMMM YYYY")
         cover_image {
           publicURL
           childImageSharp {

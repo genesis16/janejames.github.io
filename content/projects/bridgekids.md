@@ -5,7 +5,7 @@ title: 'Bridge Kids'
 cover_image: './images/bridge-kids-imac.png'
 repo_link: 'https://bridgekids.com.au'
 demo_link: 'https://bridgekids.com.au'
-techs: ['Wordpress']
+techs: ['Underscores', 'CSS', 'HTML']
 ---
 
-WWW projects is an engineering company that had it's website built in 2006. You can see in the before picture it is clearly out of date and had poor UI. It was not mobile responsive which is a MUST. The client wanted the same colour scheme, with a refreshed and updated look, navigation and UI to bring his website from 2006 to 2022.
+Bridge Kids has a site built in underscores, and they needed some CSS/HTMl changes to update their site, adding im an image container and also changing the staff information and general content. After gaining FTP access, I did all of this for them and also updated their PHP version, software and plugins. 

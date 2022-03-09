@@ -91,12 +91,12 @@ export const pageQuery = graphql`
   query {
     allMarkdownRemark(
       sort: { order: DESC, fields: frontmatter___date }
-      filter: { fileAbsolutePath: { regex: "/content/projects/" }, frontmatter: { featured: { eq: true} } }
+      filter: { fileAbsolutePath: { regex: "/content/projects/" }, frontmatter: { featured: { eq: false } } }
     ) {
       edges {
         node {
           frontmatter {
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "D MMMM, YYYY")
             title
             cover_image {
               childImageSharp {
